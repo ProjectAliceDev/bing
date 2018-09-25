@@ -45,9 +45,3 @@ Bendy is not GNOME is a GNOME 3-like desktop environment for AliceOS. It provide
             pass    
     
     bendy = BingDesktop()
-
-## Applet Code
-# Define your applet after you have established your
-# app's manifest here. This may include screens, labels,
-# or definitions. Please keep all of your applet's code
-# in this file.
