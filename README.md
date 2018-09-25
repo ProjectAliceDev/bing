@@ -1,12 +1,12 @@
 # Bendy is not GNOME
 A desktop environment for AliceOS
 
+![Bing Desktop](https://cdn.discordapp.com/attachments/457606890617045009/494255906347810827/unknown.png)
+
 ## About this applet
 Bendy is not GNOME (BinG) is a GNOME 3-like desktop environment for AliceOS. It provides basic functionalities of switching between Applets and file management within AliceOS.
 
 Inspiration is drawn from GNOME 3.
-
-![GNOME 3 desktop](https://www.gnome.org/wp-content/uploads/2017/04/featured-image@2x-1.png)
 
 
 ## Installing this Applet
