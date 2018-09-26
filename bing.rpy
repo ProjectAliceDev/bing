@@ -46,6 +46,11 @@ Bendy is not GNOME is a GNOME 3-like desktop environment for AliceOS. It provide
             pm_shell
         }
 
+        launch = {
+            "action": "[Hide('ActivitiesView'), Show('bing_desktop')]",
+            "show_in_launcher": True
+        }
+
         def __init__(self):
             pass    
     
