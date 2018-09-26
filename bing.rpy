@@ -12,7 +12,7 @@ init python:
         # and the desktop shell.
 
         # Provide a short name and a long name for your app.
-        short_name = "BinG"
+        short_name = "Desktop"
         long_name = "Bendy is not GNOME Desktop"
 
         # Provide the author information, version number, and
