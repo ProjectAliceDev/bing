@@ -5,7 +5,7 @@ screen bing_top_bar():
         xfill True
         ysize 32
         
-        textbutton _("Activities") action Return(0):
+        textbutton _("Activities") action Show("ActivitiesView"):
             style "top_bar_activities_button"
             xalign 0.015
 
