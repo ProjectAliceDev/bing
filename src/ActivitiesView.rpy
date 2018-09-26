@@ -10,7 +10,7 @@ screen ActivitiesView():
                 applets_list.append(obj)
 
         for item in applets_list:
-            if item.short_name == "Pendleton":
+            if item.launch["show_in_launcher"] == False:
                 applets_list.remove(item)
 
     grid len(applets_list) 1:
@@ -24,7 +24,7 @@ screen ActivitiesView():
             $ slot = i + 1
 
             button:
-                action Return(0)
+                action eval(applets_list[i].launch["action"])
 
                 has vbox
 
@@ -41,7 +41,7 @@ screen ActivitiesView():
                         xalign 0.5
 
 
-style app_name_text is aliceos_regular:
+style app_name_text is aliceos_medium:
     color "#ffffff"
     hover_color banana[700]
     size 18
