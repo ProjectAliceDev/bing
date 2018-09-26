@@ -55,3 +55,27 @@ Bendy is not GNOME is a GNOME 3-like desktop environment for AliceOS. It provide
             pass    
     
     bendy = BingDesktop()
+
+## Screen override
+init 5:
+    screen say(who, what):
+        use bing_top_bar
+        style_prefix "say"
+
+        window:
+            id "window"
+
+            text what id "what"
+
+            if who is not None:
+
+                window:
+                    style "namebox"
+                    text who id "who"
+
+        # If there's a side image, display it above the text. Do not display
+        # on the phone variant - there's no room.
+        if not renpy.variant("small"):
+            add SideImage() xalign 0.0 yalign 1.0
+
+        use quick_menu
