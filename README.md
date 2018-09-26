@@ -1,7 +1,7 @@
 # Bendy is not GNOME
 A desktop shell applet for AliceOS
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts" src="https://peertube.social/videos/embed/6f5fc50d-5fa0-497d-a7d0-c0053342659f" frameborder="0" allowfullscreen></iframe>
+[![BinG Desktop](preview.png)](https://peertube.social/videos/watch/6f5fc50d-5fa0-497d-a7d0-c0053342659f)
 
 ## About this applet
 BinG (_Bendy is not GNOME_) Desktop is a first-party desktop shell for AliceOS. It offers badic functionality in launching applets and providing a safe space to return to.
