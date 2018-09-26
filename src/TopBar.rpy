@@ -31,6 +31,7 @@ init 2:
         color "#ffffff"
         size 18
         hover_color banana[300]
+        selected_color banana[500]
 
     style top_bar_date_button_text is aliceos_bold:
         color "#ffffff"
