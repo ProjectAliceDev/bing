@@ -39,7 +39,12 @@ Bendy is not GNOME is a GNOME 3-like desktop environment for AliceOS. It provide
         # Define what permissions your applet will need.
         # See the Applet Manifest wiki page for all possible
         # permissions
-        permissions = {pm_notify, pm_files, pm_sysadmin}
+        permissions = {
+            pm_notify, 
+            pm_files, 
+            pm_sysadmin, 
+            pm_shell
+        }
 
         def __init__(self):
             pass    
