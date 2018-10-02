@@ -68,42 +68,10 @@ init 5:
             text what id "what"
 
             if who is not None:
-                if who == s_name: #Sayori namebox
-                    window:
-                        style "nameboxblue"
-                        text who id "who"
-                if who == m_name: #Monika namebox
-                    window:
-                        style "nameboxgreen"
-                        text who id "who"
-                if who == y_name: #Yuri namebox
-                    window:
-                        style "nameboxpurple"
-                        text who id "who"
-                if who == n_name: #Natsuki namebox
-                    window:
-                        style "nameboxpink"
-                        text who id "who"
-                if who == mi_name: #Mio namebox
-                    window:
-                        style "nameboxred"
-                        text who id "who"
-                if who == sm_name: #Sayonika namebox
-                    window:
-                        style "nameboxteal"
-                        text who id "who"
-                if who == c_name: #Apple Store namebox
-                    window:
-                        style "namebox_apple"
-                        text who id "who"
-                if who == player: #MC namebox
-                    window:
-                        style "namebox_mc"
-                        text who id "who"
-                if who != s_name and who != m_name and who != y_name and who != n_name and who != player and who != sm_name and who != c_name: #Everyone else namebox
-                    window:
-                        style "namebox"
-                        text who id "who"
+
+                window:
+                    style "namebox"
+                    text who id "who"
 
         # If there's a side image, display it above the text. Do not display
         # on the phone variant - there's no room.

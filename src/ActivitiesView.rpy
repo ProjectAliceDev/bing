@@ -1,7 +1,6 @@
 screen ActivitiesView():
     add "Resources/systemui/overlay_confirm.png"
     use bing_top_bar
-    modal True
 
     python:
         import gc
